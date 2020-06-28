@@ -1,0 +1,22 @@
+{
+    "name": "guiman/symfonox",
+    "description": "Some extras for Symfony 5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Manier",
+            "email": "guillaume.manier.pro@gmail.com",
+            "homepage": "https://gmanier.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guiman\\Symfonox": "src/"
+        }
+    }
+}
