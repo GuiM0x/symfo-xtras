@@ -1,5 +1,5 @@
 {
-    "name": "guiman/symfonox",
+    "name": "guiman/symfo-xtras",
     "description": "Some extras for Symfony 5",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Guiman\\Symfonox": "src/"
+            "Guiman\\Symfoxtras": "src/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Guiman\Symfonox;
+namespace Guiman\Symfoxtras;
 
 class XFileUploader
 {
