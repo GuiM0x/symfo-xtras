@@ -17,14 +17,14 @@ class XFileUploader
 
     public function __construct(SluggerInterface $slugger)
     {
-        $targetDirectory = null;
+        $this->targetDirectory = "";
         $this->slugger = $slugger;
     }
 
     public function upload(UploadedFile $file): string
     {
         assert(
-            $this->targetDirectory,
+            $this->targetDirectory !== "",
             "A target directory is needed before upload a file. \nUse XFileUploader::setTargetDirectory to set it."
         );
 
