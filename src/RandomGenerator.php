@@ -11,11 +11,6 @@ namespace Guiman\SymfoXtras;
 
 class RandomGenerator
 {
-    public function __construct()
-    {
-        
-    }
-
     /**
      * Return a random number between min and max.
      * Don't use it if you need strong random, use impartialRand function instead.
